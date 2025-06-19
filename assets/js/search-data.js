@@ -391,16 +391,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-two-papers-are-accepted-to-eccv-2024",
+          title: 'Two papers are accepted to ECCV 2024.',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-our-paper-on-video-text-retrieval-is-accepted-to-cvpr-2025-oral-presentation",
+          title: 'Our paper on video-text retrieval is accepted to CVPR 2025 (Oral Presentation).',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-i-am-selected-as-outstanding-reviewers-in-cvpr-2025",
+          title: 'I am selected as outstanding reviewers in CVPR 2025.',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
