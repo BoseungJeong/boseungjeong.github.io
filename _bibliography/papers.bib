@@ -7,7 +7,7 @@
 @string{arXiv = {arXiv preprint,}}
 
 
-@inproceedings{park@2020learning,
+@inproceedings{park2020learning,
   title={Learning Discriminative Part Features through Attentions for Effective and Scalable Person Search},
   author={Jicheol Park* and Boseung Jeong* and Jongju Shin and Juyoung Lee and Suha Kwak},
   abstract={This paper proposes a new method for person search, the task of detecting a specific person exemplified by a query image from a gallery of scene images. Current state-of-the-art techniques in person search demonstrate impressive performance, but are limited in terms of efficiency and scalability since they require multiple models and/or have to re-process gallery images per query. We argue that a concise framework with a single neural network can achieve both of scalability and performance at once. In our framework, the network detects people and extracts their appearance features so that person search is done by finding the person closest to the query in the feature space. For performance, we focus on the quality of the person appearance features: Our network is designed and trained to produce person features that are discriminative, fine-grained, adaptive to appearance variations, and robust against person localization errors. To this end, we design channel attention and part-wise spatial attention modules as well as a loss for learning discriminative features. Our framework outperforms current state of the art on the PRW benchmark even with the concise pipeline based on a single network.},
@@ -16,6 +16,19 @@
   abbr={ICIP},
   equal_contrib={true},
   doi={10.1109/ICIP40778.2020.9190688},
+  selected={true},
+  preview={ParkICIP2020.jpg}
+}
+
+@inproceedings{jeong2021asmr,
+  title={ASMR: Learning Attribute-Based Person Search with Adaptive Semantic Margin Regularizer},
+  author={Boseung Jeong* and Jicheol Park* and Suha Kwak},
+  abstract={Attribute-based person search is the task of finding person images that are best matched with a set of text attributes given as query. The main challenge of this task is the large modality gap between attributes and images. To reduce the gap, we present a new loss for learning cross-modal embeddings in the context of attribute-based person search. We regard a set of attributes as a category of people sharing the same traits. In a joint embedding space of the two modalities, our loss pulls images close to their person categories for modality alignment. More importantly, it pushes apart a pair of person categories by a margin determined adaptively by their semantic distance, where the distance metric is learned end-to-end so that the loss considers importance of each attribute when relating person categories. Our loss guided by the adaptive semantic margin leads to more discriminative and semantically well-arranged distributions of person images. As a consequence, it enables a simple embedding model to achieve state-of-the-art records on public benchmarks without bells and whistles.},
+  booktitle=ICCV,
+  year={2021},
+  abbr={ICCV},
+  equal_contrib={true},
+  arxiv={2108.04533},
   selected={true},
   preview={ParkICIP2020.jpg}
 }
