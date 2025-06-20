@@ -146,6 +146,10 @@
         >
         </i>
       {% endif %}
+      
+      {% if entry.equal_contrib -%}
+        {{" (*equal contribution)"}}
+      {%- endif %}      
     </div>
 
     <!-- Journal/Book title and date -->
