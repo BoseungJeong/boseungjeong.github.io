@@ -7,19 +7,6 @@
 @string{arXiv = {arXiv preprint,}}
 
 
-@inproceedings{park2020learning,
-  title={Learning Discriminative Part Features through Attentions for Effective and Scalable Person Search},
-  author={Jicheol Park* and Boseung Jeong* and Jongju Shin and Juyoung Lee and Suha Kwak},
-  abstract={This paper proposes a new method for person search, the task of detecting a specific person exemplified by a query image from a gallery of scene images. Current state-of-the-art techniques in person search demonstrate impressive performance, but are limited in terms of efficiency and scalability since they require multiple models and/or have to re-process gallery images per query. We argue that a concise framework with a single neural network can achieve both of scalability and performance at once. In our framework, the network detects people and extracts their appearance features so that person search is done by finding the person closest to the query in the feature space. For performance, we focus on the quality of the person appearance features: Our network is designed and trained to produce person features that are discriminative, fine-grained, adaptive to appearance variations, and robust against person localization errors. To this end, we design channel attention and part-wise spatial attention modules as well as a loss for learning discriminative features. Our framework outperforms current state of the art on the PRW benchmark even with the concise pipeline based on a single network.},
-  booktitle=ICIP,
-  year={2020},
-  abbr={ICIP},
-  equal_contrib={true},
-  doi={10.1109/ICIP40778.2020.9190688},
-  selected={true},
-  preview={ParkICIP2020.jpg}
-}
-
 @inproceedings{jeong2021asmr,
   title={ASMR: Learning Attribute-Based Person Search with Adaptive Semantic Margin Regularizer},
   author={Boseung Jeong* and Jicheol Park* and Suha Kwak},
@@ -29,6 +16,21 @@
   abbr={ICCV},
   equal_contrib={true},
   arxiv={2108.04533},
+  selected={true},
+  code = {https://github.com/BoseungJeong/ASMR-ICCV-2021},
+  website={https://cvlab.postech.ac.kr/research/ASMR/},
+  preview={ASMR.png}
+}
+
+@inproceedings{park2020learning,
+  title={Learning Discriminative Part Features through Attentions for Effective and Scalable Person Search},
+  author={Jicheol Park* and Boseung Jeong* and Jongju Shin and Juyoung Lee and Suha Kwak},
+  abstract={This paper proposes a new method for person search, the task of detecting a specific person exemplified by a query image from a gallery of scene images. Current state-of-the-art techniques in person search demonstrate impressive performance, but are limited in terms of efficiency and scalability since they require multiple models and/or have to re-process gallery images per query. We argue that a concise framework with a single neural network can achieve both of scalability and performance at once. In our framework, the network detects people and extracts their appearance features so that person search is done by finding the person closest to the query in the feature space. For performance, we focus on the quality of the person appearance features: Our network is designed and trained to produce person features that are discriminative, fine-grained, adaptive to appearance variations, and robust against person localization errors. To this end, we design channel attention and part-wise spatial attention modules as well as a loss for learning discriminative features. Our framework outperforms current state of the art on the PRW benchmark even with the concise pipeline based on a single network.},
+  booktitle=ICIP,
+  year={2020},
+  abbr={ICIP},
+  equal_contrib={true},
+  doi={10.1109/ICIP40778.2020.9190688},
   selected={true},
   preview={ParkICIP2020.jpg}
 }
