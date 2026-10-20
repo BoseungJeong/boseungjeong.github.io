@@ -26,7 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Ph.D. candidate  in the <a href='https://cse.postech.ac.kr/'>Computer Science and Engineering (CSE)</a> department at POSTECH, working in the <a href='https://cvlab.postech.ac.kr/'>Computer Vision Lab</a>, advised by Prof. <a href='https://cvlab.postech.ac.kr/~suhakwak/'>Suha Kwak</a>.
+I received my Ph.D. from the <a href='https://cse.postech.ac.kr/'>Computer Science and Engineering (CSE)</a> department at POSTECH, working in the <a href='https://cvlab.postech.ac.kr/'>Computer Vision Lab</a>, advised by Prof. <a href='https://cvlab.postech.ac.kr/~suhakwak/'>Suha Kwak</a>.
 
 My research primarily focuses on **multi-modal retrieval**, where I explore how to align and fuse information from different modalities such as vision, language, and audio. I have worked extensively on **text-based person search**, aiming to retrieve person images using textual attribute queries, and on **video-text retrieval**, where I study how to represent and align video content with natural language descriptions.
 I'm particularly interested in developing models that bridge the modality gap and generalize well across real-world data.
